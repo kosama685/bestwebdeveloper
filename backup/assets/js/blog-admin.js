@@ -40,7 +40,7 @@
 
   const escapeHTML = (value = "") =>
     String(value).replace(/[&<>"']/g, (char) => ({
-      "&": "&amp;",
+      "&": "and",
       "<": "&lt;",
       ">": "&gt;",
       '"': "&quot;",

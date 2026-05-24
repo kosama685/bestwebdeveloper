@@ -28,7 +28,7 @@
   let sortDesc = true;
 
   function slugify(s){ return (s||'').toString().normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/&/g,' and ').replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'').slice(0,90); }
-  function escapeHTML(s){ return (s||'').toString().replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c])); }
+  function escapeHTML(s){ return (s||'').toString().replace(/[&<>'"]/g, c => ({'&':'and','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c])); }
   function stripTags(s){ const d=document.createElement('div'); d.innerHTML=s||''; return d.textContent||d.innerText||''; }
   function wordCount(s){ return (stripTags(s).trim().match(/\b[\w'-]+\b/g)||[]).length; }
   function today(){ return new Date().toISOString().slice(0,10); }
