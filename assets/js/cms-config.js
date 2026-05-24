@@ -2,7 +2,7 @@ window.BWD_CMS_CONFIG = {
   siteName: "Best Web Developer",
   siteBaseUrl: "https://bestwebdeveloper.org",
   spreadsheetId: "1GWKCSuNOYpT3d_rLciws9DP1xJLXkeDwpW3MWUhgu_w",
-  appsScriptUrl: "https://script.google.com/macros/s/AKfycbymGLGdPVtnDGnxRp2Vo3RNUIL21F_HblwLB6BPCAU3_gWF7BrPYNqMLZFbjVLz6ZgK/exec", // Paste deployed Google Apps Script Web App URL here.
+  appsScriptUrl: "https://script.google.com/macros/s/AKfycby9BHXfaM-7pgQ5Ov6EN9DfNiige1IQo360KdcVxTspY8_v4hEAQwOZh7naoJHL86GYpQ/exec", // Paste deployed Google Apps Script Web App URL here.
   adminPassword: "BWD@2026", // Change this in this file and in Apps Script Properties before production.
   localStoragePrefix: "bwd-cms-v1",
   defaultAuthor: "Best Web Developer",
