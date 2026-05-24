@@ -1,3 +1,13 @@
 User-agent: *
 Allow: /
+Disallow: /admin-dashboard.html
+Disallow: /add-blog.html
+Disallow: /add-services.html
+Disallow: /add-pages.html
+Disallow: /add-categories.html
+Disallow: /add-tags.html
+Disallow: /add-seo.html
+Disallow: /add-geo.html
+Disallow: /add-aeo.html
+Disallow: /seo-score-checker.html
 Sitemap: https://bestwebdeveloper.org/sitemap.xml

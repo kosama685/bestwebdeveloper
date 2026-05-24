@@ -1,0 +1,123 @@
+[
+  {
+    "file": "404.html",
+    "titleLength": 39,
+    "descriptionLength": 47,
+    "issues": [
+      "description length 47"
+    ]
+  },
+  {
+    "file": "blog/bootstrap-corporate-websites.html",
+    "titleLength": 67,
+    "descriptionLength": 96,
+    "issues": [
+      "title length 67"
+    ]
+  },
+  {
+    "file": "blog/geo-optimization-for-ai-search.html",
+    "titleLength": 89,
+    "descriptionLength": 123,
+    "issues": [
+      "title length 89"
+    ]
+  },
+  {
+    "file": "blog/responsive-web-design-conversions.html",
+    "titleLength": 71,
+    "descriptionLength": 107,
+    "issues": [
+      "title length 71"
+    ]
+  },
+  {
+    "file": "blog/seo-ready-website-checklist.html",
+    "titleLength": 71,
+    "descriptionLength": 108,
+    "issues": [
+      "title length 71"
+    ]
+  },
+  {
+    "file": "blog/shopify-product-page-seo.html",
+    "titleLength": 66,
+    "descriptionLength": 102,
+    "issues": [
+      "title length 66"
+    ]
+  },
+  {
+    "file": "blog/social-media-content-calendar.html",
+    "titleLength": 72,
+    "descriptionLength": 100,
+    "issues": [
+      "title length 72"
+    ]
+  },
+  {
+    "file": "blog.html",
+    "titleLength": 25,
+    "descriptionLength": 112,
+    "issues": [
+      "title length 25"
+    ]
+  },
+  {
+    "file": "index.html",
+    "titleLength": 79,
+    "descriptionLength": 142,
+    "issues": [
+      "title length 79"
+    ]
+  },
+  {
+    "file": "locations/tempe-digital-marketing.html",
+    "titleLength": 53,
+    "descriptionLength": 78,
+    "issues": [
+      "description length 78"
+    ]
+  },
+  {
+    "file": "locations/uk-digital-marketing-services.html",
+    "titleLength": 50,
+    "descriptionLength": 66,
+    "issues": [
+      "description length 66"
+    ]
+  },
+  {
+    "file": "locations/usa-digital-marketing-services.html",
+    "titleLength": 51,
+    "descriptionLength": 67,
+    "issues": [
+      "description length 67"
+    ]
+  },
+  {
+    "file": "privacy-policy.html",
+    "titleLength": 35,
+    "descriptionLength": 64,
+    "issues": [
+      "description length 64"
+    ]
+  },
+  {
+    "file": "sitemap.html",
+    "titleLength": 28,
+    "descriptionLength": 68,
+    "issues": [
+      "title length 28",
+      "description length 68"
+    ]
+  },
+  {
+    "file": "terms-conditions.html",
+    "titleLength": 41,
+    "descriptionLength": 71,
+    "issues": [
+      "description length 71"
+    ]
+  }
+]

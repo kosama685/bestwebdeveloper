@@ -1,0 +1,535 @@
+[
+  {
+    "slug": "web-design-development",
+    "title": "Web Design & Development",
+    "icon": "bi-window-stack",
+    "kw": "web design services",
+    "img": "web-design-development-agency-team.webp",
+    "excerpt": "Corporate websites, landing pages, and conversion-focused digital experiences built with modern UX, responsive code, and SEO foundations.",
+    "includes": [
+      "Responsive Bootstrap website design",
+      "Interactive landing pages and service funnels",
+      "Conversion-focused information architecture",
+      "Speed, accessibility, and SEO-ready markup",
+      "Analytics, forms, and CRM integration"
+    ],
+    "outcomes": [
+      "Launch a polished corporate website",
+      "Improve trust with better design systems",
+      "Increase contact-form and quote requests"
+    ]
+  },
+  {
+    "slug": "ui-ux-design",
+    "title": "UI/UX Design",
+    "icon": "bi-ui-checks-grid",
+    "kw": "UI UX design",
+    "img": "ui-ux-web-design-agency.webp",
+    "excerpt": "Research-led interfaces, user journeys, interactive prototypes, and polished visuals that make complex services easier to buy.",
+    "includes": [
+      "Wireframes, journeys, and visual systems",
+      "Mobile-first interface design",
+      "Interactive design and micro-interactions",
+      "Usability review and conversion recommendations"
+    ],
+    "outcomes": [
+      "Reduce friction across key pages",
+      "Create memorable brand interactions",
+      "Guide users from discovery to conversion"
+    ]
+  },
+  {
+    "slug": "web-development",
+    "title": "Backend & Custom Web Development",
+    "icon": "bi-code-slash",
+    "kw": "backend development",
+    "img": "backend-development-html-javascript.webp",
+    "excerpt": "Secure, scalable web applications, APIs, dashboards, and integrations engineered for long-term business growth.",
+    "includes": [
+      "Frontend and backend development",
+      "Custom web application development",
+      "API integrations and third-party software support",
+      "Database design and cloud-ready deployment"
+    ],
+    "outcomes": [
+      "Build stable digital infrastructure",
+      "Connect tools and workflows",
+      "Prepare your platform to scale"
+    ]
+  },
+  {
+    "slug": "wordpress-development",
+    "title": "WordPress Development",
+    "icon": "bi-wordpress",
+    "kw": "WordPress web design agency",
+    "img": "wordpress-development.webp",
+    "excerpt": "SEO-friendly WordPress sites, custom themes, WooCommerce builds, and editable content systems for growing teams.",
+    "includes": [
+      "Custom WordPress theme development",
+      "WooCommerce and plugin setup",
+      "Performance and security hardening",
+      "Editable content blocks and training"
+    ],
+    "outcomes": [
+      "Manage content without technical bottlenecks",
+      "Rank with clean SEO structure",
+      "Extend your site as services grow"
+    ]
+  },
+  {
+    "slug": "ecommerce-development",
+    "title": "Ecommerce & Shopify Development",
+    "icon": "bi-cart-check",
+    "kw": "Shopify web design agency",
+    "img": "shopify-ecommerce-store-development.webp",
+    "excerpt": "High-converting ecommerce stores with product UX, checkout optimization, payment integration, and retention-ready customer journeys.",
+    "includes": [
+      "Shopify store setup and redesign",
+      "Product page and collection optimization",
+      "Secure checkout and payment setup",
+      "Email, analytics, and inventory integrations"
+    ],
+    "outcomes": [
+      "Launch a store that sells",
+      "Improve cart and checkout conversion",
+      "Build a scalable ecommerce foundation"
+    ]
+  },
+  {
+    "slug": "search-engine-optimization-services",
+    "title": "Search Engine Optimization Services",
+    "icon": "bi-search",
+    "kw": "search engine optimization services",
+    "img": "seo-search-engine-optimization.webp",
+    "excerpt": "Technical, on-page, off-page, and local SEO systems built to improve visibility, authority, and qualified inbound leads.",
+    "includes": [
+      "SEO audits and competitor analysis",
+      "Keyword research and content mapping",
+      "Technical SEO and site architecture",
+      "Authority building and reporting"
+    ],
+    "outcomes": [
+      "Improve search engine ranking",
+      "Increase organic qualified traffic",
+      "Create content that AI and search engines understand"
+    ]
+  },
+  {
+    "slug": "digital-marketing-services",
+    "title": "Digital Marketing Services",
+    "icon": "bi-megaphone",
+    "kw": "digital marketing services",
+    "img": "digital-marketing-services-partner.webp",
+    "excerpt": "A complete growth engine combining SEO, PPC, content, email, social media, analytics, and conversion-focused landing pages.",
+    "includes": [
+      "Campaign strategy and planning",
+      "Paid search and social advertising",
+      "Content and email funnel development",
+      "Monthly reporting and optimization"
+    ],
+    "outcomes": [
+      "Grow visibility across channels",
+      "Convert more leads with data-driven campaigns",
+      "Align marketing with business goals"
+    ]
+  },
+  {
+    "slug": "email-marketing-near-me",
+    "title": "Email Marketing Services",
+    "icon": "bi-envelope-paper",
+    "kw": "email marketing services",
+    "img": "email-marketing-near-me-services.webp",
+    "excerpt": "Lifecycle email campaigns, automations, newsletters, segmentation, and performance reporting designed to nurture and convert leads.",
+    "includes": [
+      "Email strategy and content calendars",
+      "Responsive email template design",
+      "Automation workflows and segmentation",
+      "Deliverability checks and analytics"
+    ],
+    "outcomes": [
+      "Nurture leads automatically",
+      "Retain customers with useful communication",
+      "Measure every campaign clearly"
+    ]
+  },
+  {
+    "slug": "content-marketing-services",
+    "title": "Content Marketing & Blog Writing",
+    "icon": "bi-journal-text",
+    "kw": "content marketing services",
+    "img": "content-marketing-services-strategy.webp",
+    "excerpt": "Strategic blog posts, landing page content, authority-building resources, and AI-search-ready content hubs for long-term visibility.",
+    "includes": [
+      "Content strategy and editorial calendars",
+      "SEO blog writing and landing page copy",
+      "Multichannel content distribution",
+      "Performance measurement and updates"
+    ],
+    "outcomes": [
+      "Build topical authority",
+      "Answer buyer questions clearly",
+      "Feed SEO, email, and social campaigns"
+    ]
+  },
+  {
+    "slug": "social-media-agency",
+    "title": "Social Media Marketing",
+    "icon": "bi-share",
+    "kw": "social media agency",
+    "img": "social-media-agency-marketing.webp",
+    "excerpt": "Social media management, content calendars, campaign creative, and paid advertising that build awareness and qualified traffic.",
+    "includes": [
+      "Social media strategy and creative design",
+      "Post scheduling and community management",
+      "Paid social campaign setup",
+      "Performance testing and reporting"
+    ],
+    "outcomes": [
+      "Build a consistent social presence",
+      "Turn engagement into leads",
+      "Improve ad creative performance"
+    ]
+  },
+  {
+    "slug": "brand-designs-services",
+    "title": "Branding & Logo Design",
+    "icon": "bi-vector-pen",
+    "kw": "branding designer",
+    "img": "branding-logo-design-studio.webp",
+    "excerpt": "Identity systems, logo design, brand messaging, and collateral that make your business look consistent, premium, and credible.",
+    "includes": [
+      "Brand strategy and positioning",
+      "Logo and visual identity design",
+      "Color, typography, and usage guidelines",
+      "Collateral and social templates"
+    ],
+    "outcomes": [
+      "Create a recognizable identity",
+      "Improve trust at first impression",
+      "Unify all customer touchpoints"
+    ]
+  },
+  {
+    "slug": "android-app-development",
+    "title": "Android App Development",
+    "icon": "bi-android2",
+    "kw": "android app development company",
+    "img": "android-app-development-services.webp",
+    "excerpt": "Native Android and mobile app solutions, from discovery and UX through backend integration, testing, launch, and maintenance.",
+    "includes": [
+      "Android app planning and UI/UX",
+      "Native Java/Kotlin development",
+      "API and backend integration",
+      "Testing, deployment, and ongoing support"
+    ],
+    "outcomes": [
+      "Launch a reliable mobile product",
+      "Extend your service to mobile users",
+      "Create scalable app infrastructure"
+    ]
+  },
+  {
+    "slug": "illustration-services",
+    "title": "Illustration, 3D Modelling & Product Design",
+    "icon": "bi-badge-3d",
+    "kw": "3D modelling and illustration services",
+    "img": "book-cover-illustration-service.webp",
+    "excerpt": "Book cover illustration, product visuals, 3D modelling, concept design, and animated assets that make ideas easier to understand.",
+    "includes": [
+      "Concept design and creative direction",
+      "Book cover illustration and branded visuals",
+      "3D modelling and rendered product assets",
+      "Animation-ready storyboards and visuals"
+    ],
+    "outcomes": [
+      "Visualize ideas before production",
+      "Create premium marketing assets",
+      "Stand out with custom creative work"
+    ]
+  },
+  {
+    "slug": "on-page-seo-services",
+    "title": "On-Page SEO Services",
+    "icon": "bi-file-earmark-text",
+    "kw": "on-page SEO services",
+    "img": "shopify-ecommerce-store-development.webp",
+    "excerpt": "On-page optimization for titles, headings, internal links, structured data, content quality, and conversion-ready service pages.",
+    "includes": [
+      "Discovery and campaign strategy",
+      "Custom design and implementation",
+      "SEO-ready content and page structure",
+      "Analytics, tracking, and optimization"
+    ],
+    "outcomes": [
+      "Improve discoverability",
+      "Create a premium digital presence",
+      "Convert more traffic into inquiries"
+    ]
+  },
+  {
+    "slug": "off-page-seo-services",
+    "title": "Off-Page SEO Services",
+    "icon": "bi-link-45deg",
+    "kw": "off-page SEO services",
+    "img": "web-development-services-workspace.webp",
+    "excerpt": "Authority building through citation clean-up, digital PR, backlink strategy, reputation signals, and trust-focused campaigns.",
+    "includes": [
+      "Discovery and campaign strategy",
+      "Custom design and implementation",
+      "SEO-ready content and page structure",
+      "Analytics, tracking, and optimization"
+    ],
+    "outcomes": [
+      "Improve discoverability",
+      "Create a premium digital presence",
+      "Convert more traffic into inquiries"
+    ]
+  },
+  {
+    "slug": "technical-seo-services",
+    "title": "Technical SEO Services",
+    "icon": "bi-speedometer2",
+    "kw": "technical SEO services",
+    "img": "mobile-app-development-agency.webp",
+    "excerpt": "Crawlability, Core Web Vitals, schema, redirects, indexation, site architecture, and performance fixes for stronger organic visibility.",
+    "includes": [
+      "Discovery and campaign strategy",
+      "Custom design and implementation",
+      "SEO-ready content and page structure",
+      "Analytics, tracking, and optimization"
+    ],
+    "outcomes": [
+      "Improve discoverability",
+      "Create a premium digital presence",
+      "Convert more traffic into inquiries"
+    ]
+  },
+  {
+    "slug": "local-seo-services",
+    "title": "Local SEO Services",
+    "icon": "bi-geo-alt",
+    "kw": "local SEO services",
+    "img": "creative-logo-design-service.webp",
+    "excerpt": "Local search optimization for service businesses, including location pages, map visibility, citations, reviews, and localized content.",
+    "includes": [
+      "Discovery and campaign strategy",
+      "Custom design and implementation",
+      "SEO-ready content and page structure",
+      "Analytics, tracking, and optimization"
+    ],
+    "outcomes": [
+      "Improve discoverability",
+      "Create a premium digital presence",
+      "Convert more traffic into inquiries"
+    ]
+  },
+  {
+    "slug": "ppc-google-ads",
+    "title": "PPC & Google Ads",
+    "icon": "bi-cursor",
+    "kw": "Google Adwords PPC services",
+    "img": "email-campaign-automation.webp",
+    "excerpt": "Search, display, remarketing, and conversion-tracked campaigns for fast demand capture and measurable lead generation.",
+    "includes": [
+      "Discovery and campaign strategy",
+      "Custom design and implementation",
+      "SEO-ready content and page structure",
+      "Analytics, tracking, and optimization"
+    ],
+    "outcomes": [
+      "Improve discoverability",
+      "Create a premium digital presence",
+      "Convert more traffic into inquiries"
+    ]
+  },
+  {
+    "slug": "youtube-ads",
+    "title": "YouTube Ads",
+    "icon": "bi-youtube",
+    "kw": "YouTube ads services",
+    "img": "seo-digital-marketing-rocket.webp",
+    "excerpt": "Video campaign planning, audience targeting, creative testing, and reporting for YouTube advertising funnels.",
+    "includes": [
+      "Discovery and campaign strategy",
+      "Custom design and implementation",
+      "SEO-ready content and page structure",
+      "Analytics, tracking, and optimization"
+    ],
+    "outcomes": [
+      "Improve discoverability",
+      "Create a premium digital presence",
+      "Convert more traffic into inquiries"
+    ]
+  },
+  {
+    "slug": "youtube-marketing",
+    "title": "YouTube Marketing",
+    "icon": "bi-play-btn",
+    "kw": "YouTube marketing services",
+    "img": "3d-modelling-product-design.webp",
+    "excerpt": "Channel strategy, video SEO, thumbnails, descriptions, playlists, and promotional systems that grow video visibility.",
+    "includes": [
+      "Discovery and campaign strategy",
+      "Custom design and implementation",
+      "SEO-ready content and page structure",
+      "Analytics, tracking, and optimization"
+    ],
+    "outcomes": [
+      "Improve discoverability",
+      "Create a premium digital presence",
+      "Convert more traffic into inquiries"
+    ]
+  },
+  {
+    "slug": "video-production-services",
+    "title": "Video Production Services",
+    "icon": "bi-camera-reels",
+    "kw": "video recording services",
+    "img": "digital-success-consultation.webp",
+    "excerpt": "Planning, scripting, filming, editing, motion graphics, and short-form assets for campaigns and brand storytelling.",
+    "includes": [
+      "Discovery and campaign strategy",
+      "Custom design and implementation",
+      "SEO-ready content and page structure",
+      "Analytics, tracking, and optimization"
+    ],
+    "outcomes": [
+      "Improve discoverability",
+      "Create a premium digital presence",
+      "Convert more traffic into inquiries"
+    ]
+  },
+  {
+    "slug": "music-marketing",
+    "title": "Music Marketing",
+    "icon": "bi-music-note-beamed",
+    "kw": "music marketing agency",
+    "img": "web-design-agency-meeting.webp",
+    "excerpt": "Promotion systems for artists, labels, and entertainment brands across streaming, social, video, and content channels.",
+    "includes": [
+      "Discovery and campaign strategy",
+      "Custom design and implementation",
+      "SEO-ready content and page structure",
+      "Analytics, tracking, and optimization"
+    ],
+    "outcomes": [
+      "Improve discoverability",
+      "Create a premium digital presence",
+      "Convert more traffic into inquiries"
+    ]
+  },
+  {
+    "slug": "artist-development-services",
+    "title": "Artist Development Services",
+    "icon": "bi-stars",
+    "kw": "artist development services",
+    "img": "frontend-backend-web-development.webp",
+    "excerpt": "Brand positioning, release strategy, visual identity, and digital campaign development for artists ready to grow.",
+    "includes": [
+      "Discovery and campaign strategy",
+      "Custom design and implementation",
+      "SEO-ready content and page structure",
+      "Analytics, tracking, and optimization"
+    ],
+    "outcomes": [
+      "Improve discoverability",
+      "Create a premium digital presence",
+      "Convert more traffic into inquiries"
+    ]
+  },
+  {
+    "slug": "streaming-platforms",
+    "title": "Streaming Platform Services",
+    "icon": "bi-broadcast",
+    "kw": "streaming platform services",
+    "img": "digital-marketing-agency-services.webp",
+    "excerpt": "Digital music and content distribution support across key streaming platforms, promotional assets, and audience growth campaigns.",
+    "includes": [
+      "Discovery and campaign strategy",
+      "Custom design and implementation",
+      "SEO-ready content and page structure",
+      "Analytics, tracking, and optimization"
+    ],
+    "outcomes": [
+      "Improve discoverability",
+      "Create a premium digital presence",
+      "Convert more traffic into inquiries"
+    ]
+  },
+  {
+    "slug": "spotify-streaming",
+    "title": "Spotify Streaming Promotion",
+    "icon": "bi-spotify",
+    "kw": "Spotify streaming promotion",
+    "img": "seo-search-engine-optimization.webp",
+    "excerpt": "Playlist strategy, campaign assets, artist profile optimization, and ethical visibility systems for Spotify growth.",
+    "includes": [
+      "Discovery and campaign strategy",
+      "Custom design and implementation",
+      "SEO-ready content and page structure",
+      "Analytics, tracking, and optimization"
+    ],
+    "outcomes": [
+      "Improve discoverability",
+      "Create a premium digital presence",
+      "Convert more traffic into inquiries"
+    ]
+  },
+  {
+    "slug": "soundcloud-streaming",
+    "title": "SoundCloud Streaming Promotion",
+    "icon": "bi-cloud-music",
+    "kw": "SoundCloud streaming promotion",
+    "img": "email-marketing-agency-team.webp",
+    "excerpt": "Profile optimization, content planning, release promotion, and community growth strategy for SoundCloud creators.",
+    "includes": [
+      "Discovery and campaign strategy",
+      "Custom design and implementation",
+      "SEO-ready content and page structure",
+      "Analytics, tracking, and optimization"
+    ],
+    "outcomes": [
+      "Improve discoverability",
+      "Create a premium digital presence",
+      "Convert more traffic into inquiries"
+    ]
+  },
+  {
+    "slug": "non-profit-services",
+    "title": "Non Profit Digital Services",
+    "icon": "bi-heart",
+    "kw": "non profit digital marketing services",
+    "img": "content-marketing-services-strategy.webp",
+    "excerpt": "Grant-ready websites, donation funnels, community campaigns, volunteer recruitment pages, and nonprofit awareness strategies.",
+    "includes": [
+      "Discovery and campaign strategy",
+      "Custom design and implementation",
+      "SEO-ready content and page structure",
+      "Analytics, tracking, and optimization"
+    ],
+    "outcomes": [
+      "Improve discoverability",
+      "Create a premium digital presence",
+      "Convert more traffic into inquiries"
+    ]
+  },
+  {
+    "slug": "music-website",
+    "title": "Music Website Design",
+    "icon": "bi-disc",
+    "kw": "music website design",
+    "img": "social-media-agency-marketing.webp",
+    "excerpt": "Custom websites for artists, producers, studios, and entertainment brands with media players, tour dates, merch, and SEO.",
+    "includes": [
+      "Discovery and campaign strategy",
+      "Custom design and implementation",
+      "SEO-ready content and page structure",
+      "Analytics, tracking, and optimization"
+    ],
+    "outcomes": [
+      "Improve discoverability",
+      "Create a premium digital presence",
+      "Convert more traffic into inquiries"
+    ]
+  }
+]

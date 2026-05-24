@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Add Blog | Best Web Developer</title>
+  <meta name="description" content="Create, edit, preview, and export Best Web Developer blog posts with title, meta title, meta description, image URL, alt text, content, FAQs, and schema-ready data.">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="canonical" href="https://bestwebdeveloper.org/add-blog.html">
+  <meta property="og:title" content="Add Blog | Best Web Developer">
+  <meta property="og:description" content="Static HTML, CSS, and JavaScript blog manager for Best Web Developer.">
+  <meta property="og:url" content="https://bestwebdeveloper.org/add-blog.html">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#ff8c00">
+  <link rel="icon" href="assets/images/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link href="assets/css/styles.css" rel="stylesheet">
+  <style>
+    .admin-shell { background: linear-gradient(180deg, #fff7ed 0%, #ffffff 55%); }
+    .admin-card { border: 1px solid rgba(16,24,40,.08); border-radius: 28px; background: #fff; box-shadow: 0 24px 70px rgba(16,24,40,.08); }
+    .admin-card .form-label { font-weight: 700; color: #1d2939; }
+    .helper-count { font-size: .78rem; color: #667085; }
+    .preview-frame { position: sticky; top: 110px; }
+    .blog-admin-table { min-width: 1000px; }
+    .blog-admin-table th { cursor: pointer; white-space: nowrap; }
+    .table-actions .btn { padding: .25rem .55rem; }
+    .content-editor { min-height: 220px; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .soft-note { border-left: 4px solid #ff8c00; background: #fff7ed; border-radius: 16px; padding: 1rem; }
+    .required-dot::after { content: " *"; color: #ff8c00; }
+  </style>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Add Blog", "url": "https://bestwebdeveloper.org/add-blog.html", "isPartOf": {"@type": "WebSite", "name": "Best Web Developer", "url": "https://bestwebdeveloper.org"}, "description": "Static blog management page for creating schema-ready blog metadata and content exports."}</script>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="120">
+  <a href="#main" class="skip-link">Skip to content</a>
+  <div class="top-progress" id="topProgress"></div>
+  <nav class="navbar navbar-expand-xl fixed-top nav-glass" id="mainNav" aria-label="Primary navigation">
+    <div class="container-xl">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html" aria-label="Best Web Developer Home">
+        <img src="assets/images/best-web-developer-logo.png" alt="Best Web Developer orange and gray logo" class="brand-logo">
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav ms-auto align-items-xl-center gap-xl-1">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item dropdown mega-dropdown">
+            <a class="nav-link dropdown-toggle" href="services.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+            <div class="dropdown-menu mega-menu shadow-lg border-0 rounded-4 p-3">
+              <div class="row g-2">
+                <div class="col-md-6"><a class="dropdown-item rounded-3" href="services/search-engine-optimization-services.html"><i class="bi bi-check-circle me-2 text-orange"></i>SEO Services</a></div><div class="col-md-6"><a class="dropdown-item rounded-3" href="services/web-design-development.html"><i class="bi bi-check-circle me-2 text-orange"></i>Web Design</a></div><div class="col-md-6"><a class="dropdown-item rounded-3" href="services/digital-marketing-services.html"><i class="bi bi-check-circle me-2 text-orange"></i>Digital Marketing</a></div><div class="col-md-6"><a class="dropdown-item rounded-3" href="services/social-media-agency.html"><i class="bi bi-check-circle me-2 text-orange"></i>Social Media</a></div><div class="col-md-6"><a class="dropdown-item rounded-3" href="services/ppc-google-ads.html"><i class="bi bi-check-circle me-2 text-orange"></i>PPC / Google Ads</a></div><div class="col-md-6"><a class="dropdown-item rounded-3" href="services/youtube-marketing.html"><i class="bi bi-check-circle me-2 text-orange"></i>YouTube Marketing</a></div><div class="col-md-6"><a class="dropdown-item rounded-3" href="services/streaming-platforms.html"><i class="bi bi-check-circle me-2 text-orange"></i>Streaming Platforms</a></div>
+                <div class="col-12"><hr class="dropdown-divider"></div>
+                <div class="col-md-6"><a class="dropdown-item rounded-3" href="services/wordpress-development.html"><i class="bi bi-wordpress me-2 text-orange"></i>WordPress Development</a></div>
+                <div class="col-md-6"><a class="dropdown-item rounded-3" href="services/ecommerce-development.html"><i class="bi bi-cart-check me-2 text-orange"></i>Ecommerce Development</a></div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link active" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="faq.html">FAQs</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+        <div class="ms-xl-3 mt-3 mt-xl-0"><a href="contact.html" class="btn btn-orange btn-sm rounded-pill px-4 magnetic-btn">Free Consultation</a></div>
+      </div>
+    </div>
+  </nav>
+  <main id="main" class="admin-shell">
+    <section class="hero-corporate position-relative overflow-hidden">
+      <div class="orb orb-one"></div><div class="orb orb-two"></div><div class="geo-shape geo-a"></div><div class="geo-shape geo-b"></div>
+      <div class="container-xl position-relative">
+        <div class="row align-items-center min-vh-100 py-5 g-5">
+          <div class="col-lg-7 pt-5" data-aos="fade-right">
+            <span class="eyebrow"><i class="bi bi-pencil-square"></i> Blog manager</span>
+            <h1 class="display-4 fw-black mt-3 mb-4">Add, edit and export SEO-ready blog posts</h1>
+            <p class="lead text-white-75 mb-4">Create attractive blog cards with image URL, image alt text, meta title, meta description, blog title, HTML content, FAQ answers and schema-ready data.</p>
+            <div class="d-flex flex-wrap gap-3">
+              <a href="#blogFormSection" class="btn btn-orange btn-lg rounded-pill magnetic-btn">Add New Blog <i class="bi bi-arrow-down ms-1"></i></a>
+              <a href="blog.html" class="btn btn-outline-light btn-lg rounded-pill">View Blog Page</a>
+            </div>
+          </div>
+          <div class="col-lg-5" data-aos="zoom-in" data-aos-delay="100">
+            <div class="hero-device-wrap tilt-card">
+              <img src="assets/images/digital-marketing-services-partner.webp" class="img-fluid hero-img" alt="Blog manager interface for SEO AEO and GEO optimized content" loading="eager">
+              <div class="floating-card fc-1"><i class="bi bi-search"></i><span>SEO + AEO + GEO</span></div>
+              <div class="floating-card fc-2"><i class="bi bi-table"></i><span>Easy data table</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="wave-divider"><svg viewBox="0 0 1440 120" preserveAspectRatio="none"><path d="M0,96L60,90.7C120,85,240,75,360,64C480,53,600,43,720,53.3C840,64,960,96,1080,101.3C1200,107,1320,85,1380,74.7L1440,64L1440,120L0,120Z"></path></svg></div>
+    </section>
+
+    <section class="py-5" id="blogFormSection">
+      <div class="container-xl">
+        <div class="soft-note mb-4">
+          <strong>Important:</strong> this is a static HTML/CSS/JavaScript manager. It saves drafts in your browser and exports code. To publish for everyone, download or copy the updated <code>blog-data.js</code> file and upload it to GitHub.
+        </div>
+
+        <div class="row g-4">
+          <div class="col-xl-8">
+            <div class="admin-card p-4 p-lg-5">
+              <div class="d-flex flex-wrap justify-content-between align-items-center gap-3 mb-4">
+                <div>
+                  <span class="mini-eyebrow">Blog details</span>
+                  <h2 class="mb-0">Create / edit blog</h2>
+                </div>
+                <button class="btn btn-outline-secondary rounded-pill" type="button" id="newPostBtn"><i class="bi bi-plus-circle me-1"></i>New</button>
+              </div>
+
+              <form id="blogForm" class="row g-4">
+                <input type="hidden" id="postId">
+
+                <div class="col-md-8">
+                  <label class="form-label required-dot" for="title">Blog Title</label>
+                  <input class="form-control rounded-pill" id="title" required placeholder="Example: SEO, AEO and GEO Website Growth Framework">
+                </div>
+                <div class="col-md-4">
+                  <label class="form-label required-dot" for="category">Category</label>
+                  <input class="form-control rounded-pill" id="category" required list="categoryList" placeholder="SEO">
+                  <datalist id="categoryList">
+                    <option value="SEO"><option value="AEO"><option value="GEO"><option value="Technical SEO"><option value="Web Design"><option value="Development"><option value="Ecommerce"><option value="Branding"><option value="Social Media"><option value="Email Marketing">
+                  </datalist>
+                </div>
+
+                <div class="col-md-8">
+                  <label class="form-label required-dot" for="slug">Slug</label>
+                  <input class="form-control rounded-pill" id="slug" required placeholder="seo-aeo-geo-website-growth">
+                  <div class="helper-count mt-1">Final article URL: <code id="urlPreview">blog/example.html</code></div>
+                </div>
+                <div class="col-md-4">
+                  <label class="form-label" for="readTime">Read Time</label>
+                  <input class="form-control rounded-pill" id="readTime" placeholder="6 min read">
+                </div>
+
+                <div class="col-md-6">
+                  <label class="form-label required-dot" for="image">Image URL</label>
+                  <input class="form-control rounded-pill" id="image" required placeholder="assets/images/example.webp">
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label required-dot" for="imageAlt">Image Alt Tag</label>
+                  <input class="form-control rounded-pill" id="imageAlt" required placeholder="Descriptive image alt text with topic keyword">
+                </div>
+
+                <div class="col-12">
+                  <label class="form-label required-dot" for="metaTitle">Meta Title</label>
+                  <input class="form-control rounded-pill" id="metaTitle" required maxlength="70" placeholder="SEO, AEO and GEO Website Growth Framework | Best Web Developer">
+                  <div class="helper-count mt-1"><span id="metaTitleCount">0</span>/60 recommended characters</div>
+                </div>
+
+                <div class="col-12">
+                  <label class="form-label required-dot" for="metaDescription">Meta Description</label>
+                  <textarea class="form-control rounded-4" id="metaDescription" required rows="3" maxlength="180" placeholder="Write a clear search snippet that explains the value of this article."></textarea>
+                  <div class="helper-count mt-1"><span id="metaDescriptionCount">0</span>/155 recommended characters</div>
+                </div>
+
+                <div class="col-12">
+                  <label class="form-label required-dot" for="excerpt">Card Excerpt</label>
+                  <textarea class="form-control rounded-4" id="excerpt" required rows="2" placeholder="Short attractive summary shown on blog.html cards."></textarea>
+                </div>
+
+                <div class="col-12">
+                  <label class="form-label" for="keywords">Keywords</label>
+                  <input class="form-control rounded-pill" id="keywords" placeholder="SEO, AEO, GEO, AI search, web design">
+                </div>
+
+                <div class="col-md-6">
+                  <label class="form-label" for="datePublished">Published Date</label>
+                  <input class="form-control rounded-pill" id="datePublished" type="date">
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label" for="author">Author</label>
+                  <input class="form-control rounded-pill" id="author" placeholder="Best Web Developer">
+                </div>
+
+                <div class="col-12">
+                  <label class="form-label required-dot" for="content">Blog Content HTML</label>
+                  <textarea class="form-control rounded-4 content-editor" id="content" required placeholder="<h2>Introduction</h2>&#10;<p>Write your blog content here...</p>&#10;<h2>Key Takeaways</h2>&#10;<ul><li>Use short, direct answers.</li></ul>"></textarea>
+                  <div class="helper-count mt-1">Use clean HTML: <code>&lt;h2&gt;</code>, <code>&lt;p&gt;</code>, <code>&lt;ul&gt;</code>, <code>&lt;li&gt;</code>, <code>&lt;strong&gt;</code>.</div>
+                </div>
+
+                <div class="col-md-6">
+                  <label class="form-label" for="faqQuestion">FAQ Question</label>
+                  <input class="form-control rounded-pill" id="faqQuestion" placeholder="What is GEO?">
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label" for="faqAnswer">FAQ Answer</label>
+                  <input class="form-control rounded-pill" id="faqAnswer" placeholder="GEO helps AI systems understand and summarize your content.">
+                </div>
+
+                <div class="col-12 d-flex flex-wrap gap-2">
+                  <button class="btn btn-orange rounded-pill px-4" type="submit"><i class="bi bi-save me-1"></i>Save Blog</button>
+                  <button class="btn btn-outline-dark rounded-pill px-4" type="button" id="copyJsonBtn"><i class="bi bi-clipboard me-1"></i>Copy Current JSON</button>
+                  <button class="btn btn-outline-dark rounded-pill px-4" type="button" id="downloadDataBtn"><i class="bi bi-download me-1"></i>Download blog-data.js</button>
+                  <button class="btn btn-outline-dark rounded-pill px-4" type="button" id="downloadArticleBtn"><i class="bi bi-filetype-html me-1"></i>Download Article HTML</button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div class="col-xl-4">
+            <div class="preview-frame">
+              <div class="admin-card p-4">
+                <span class="mini-eyebrow">Live preview</span>
+                <h2 class="h4 mb-3">Blog card preview</h2>
+                <div id="cardPreview"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="admin-card p-4 p-lg-5 mt-4">
+          <div class="d-flex flex-wrap justify-content-between align-items-center gap-3 mb-4">
+            <div>
+              <span class="mini-eyebrow">Data table</span>
+              <h2 class="mb-0">All blog posts</h2>
+            </div>
+            <input type="search" class="form-control rounded-pill" id="tableSearch" style="max-width: 320px;" placeholder="Search table..." aria-label="Search blog data table">
+          </div>
+          <div class="table-responsive">
+            <table class="table align-middle blog-admin-table" id="blogTable">
+              <thead>
+                <tr>
+                  <th data-sort="title">Title <i class="bi bi-arrow-down-up"></i></th>
+                  <th data-sort="category">Category <i class="bi bi-arrow-down-up"></i></th>
+                  <th data-sort="datePublished">Date <i class="bi bi-arrow-down-up"></i></th>
+                  <th>Meta Description</th>
+                  <th>Image Alt</th>
+                  <th>Actions</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer-creative pt-5">
+    <div class="container-xl py-5">
+      <div class="row g-4">
+        <div class="col-lg-4" data-aos="fade-up">
+          <img src="assets/images/best-web-developer-logo.png" alt="Best Web Developer logo" class="footer-logo mb-4">
+          <p class="text-white-50">A corporate web design, development, branding, SEO, and digital marketing partner for companies that want premium design and measurable digital growth.</p>
+          <div class="d-flex gap-2 mt-4 social-icons"><a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a><a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a><a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a><a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a></div>
+        </div>
+        <div class="col-6 col-lg-2" data-aos="fade-up" data-aos-delay="50"><h3 class="footer-title">Company</h3><ul class="footer-list"><li><a href="about.html">About</a></li><li><a href="portfolio.html">Portfolio</a></li><li><a href="testimonials.html">Testimonials</a></li><li><a href="blog.html">Blog</a></li><li><a href="faq.html">FAQs</a></li></ul></div>
+        <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="100"><h3 class="footer-title">Services</h3><ul class="footer-list two-col"><li><a href="services/web-design-development.html">Web Design &amp; Development</a></li><li><a href="services/ui-ux-design.html">UI/UX Design</a></li><li><a href="services/web-development.html">Backend &amp; Custom Web Development</a></li><li><a href="services/wordpress-development.html">WordPress Development</a></li><li><a href="services/ecommerce-development.html">Ecommerce &amp; Shopify Development</a></li><li><a href="services/search-engine-optimization-services.html">Search Engine Optimization Services</a></li><li><a href="services/digital-marketing-services.html">Digital Marketing Services</a></li><li><a href="services/email-marketing-near-me.html">Email Marketing Services</a></li></ul></div>
+        <div class="col-lg-3" data-aos="fade-up" data-aos-delay="150"><h3 class="footer-title">Start a project</h3><p class="text-white-50">Tell us about your goals and receive a strategy-first consultation.</p><a class="btn btn-orange rounded-pill w-100" href="contact.html">Request Free Quote</a><div class="mt-4 small text-white-50">USA & UK service coverage<br><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="87efe2ebebe8c7e5e2f4f3f0e2e5e3e2f1e2ebe8f7e2f5a9e8f5e0">[email&#160;protected]</a></div></div>
+      </div>
+      <div class="footer-bottom d-flex flex-wrap justify-content-between gap-3 mt-5 pt-4">
+        <span>© 2026 Best Web Developer. All rights reserved.</span>
+        <span><a href="privacy-policy.html">Privacy</a> · <a href="terms-conditions.html">Terms</a> · <a href="cookie-policy.html">Cookies</a> · <a href="sitemap.html">Sitemap</a></span>
+      </div>
+    </div>
+  </footer>
+  
+  <button class="back-to-top" id="backToTop" aria-label="Back to top"><i class="bi bi-arrow-up"></i></button>
+  <div class="cookie-card" id="cookieCard" role="dialog" aria-label="Cookie notice">
+    <div><strong>Cookies & analytics.</strong> This demo includes a cookie notice placeholder so your developer can connect real consent tools.</div>
+    <button class="btn btn-orange btn-sm rounded-pill" id="acceptCookies">Accept</button>
+  </div>
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="assets/js/blog-data.js"></script>
+  <script src="assets/js/blog-admin.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
